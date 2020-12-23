@@ -1,0 +1,7 @@
+setuptools~=41.2.0
+fastapi~=0.63.0
+DateTime~=4.3
+pydantic~=1.5.1
+requests
+uvicorn
+python-jose
