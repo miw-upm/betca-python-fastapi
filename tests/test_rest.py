@@ -10,5 +10,5 @@ client = TestClient(app)
 class TestService(unittest.TestCase):
     def test_read(self):
         response = client.get("/complaints/666")
-        self.assertEqual(200, response.status_code)
+        self.assertEqual(403, response.status_code)
 
